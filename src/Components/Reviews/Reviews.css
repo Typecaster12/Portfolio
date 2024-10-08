@@ -1,0 +1,38 @@
+.reviewContainer {
+    max-width: 100%;
+    margin-top: 15rem;
+    background-color: #e5e5e5;
+    padding-top: 3rem;
+}
+
+.sliderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 90rem;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* responsiveness */
+@media (max-width: 680px) {
+    .reviewContainer .heading p {
+        font-size: 1.8rem;
+    }
+
+    .reviewContainer .heading h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .reviewContainer .heading p {
+        font-size: 1.3rem;
+    }
+
+    .reviewContainer .heading h1 {
+        font-size: 1.8rem;
+    }
+}

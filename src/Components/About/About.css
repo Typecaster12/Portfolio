@@ -1,0 +1,274 @@
+.aboutContainer {
+    height: 100%;
+    max-width: 96rem;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+.name {
+    display: flex;
+    gap: 5px;
+}
+
+.profile {
+    border: .1px solid rgb(250, 235, 208);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.image-section img {
+    border-radius: 20px;
+    height: 25rem;
+}
+
+.name {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.name-text {
+    font-size: 35px;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    width: 60%;
+    /* margin-left: 5rem; */
+    color: grey;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.facebook {
+    border: 1px solid grey;
+    font-size: 1.8rem;
+    height: 4rem;
+    width: 4rem;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook :hover {
+    cursor: pointer;
+    color: black;
+}
+
+/* about section */
+.about {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutBtn button {
+    border: none;
+    height: 4rem;
+    width: 12rem;
+    background-color: #001219;
+    color: white;
+    font-size: 17px;
+    transition: all .3s ease-in-out;
+}
+
+.cvbtn:hover {
+    background-color: white;
+    color: #001219;
+    border: .5px solid #001219;
+}
+
+.para p {
+    font-size: 4rem;
+}
+
+.role1 {
+    display: flex;
+    gap: 5px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.icon-role {
+    display: flex;
+    gap: 5px;
+}
+
+.roles {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 20px;
+    color: grey;
+}
+
+.role {
+    font-size: 20px;
+    color: grey;
+}
+
+
+/* responsiveness */
+
+
+@media (max-width: 1339px) {
+    .aboutContainer {
+        max-width: 70rem;
+        display: flex;
+        gap: 40px;
+    }
+
+    .para p {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1116px) {
+    .aboutContainer {
+        max-width: 65rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .image-section img {
+        height: 35rem;
+    }
+
+    .role1 {
+        width: 100%;
+    }
+
+    .para p {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 687px) {
+    .aboutContainer {
+        max-width: 30rem;
+        margin-top: 6rem;
+    }
+
+    .image-section img {
+        height: 25rem;
+    }
+
+    .para p {
+        font-size: 1.7rem;
+    }
+
+    .profile {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 515px) {
+    .aboutContainer {
+        max-width: 22rem;
+        margin-top: 5.5rem;
+    }
+
+    .image-section img {
+        height: 21rem;
+    }
+
+    .para p {
+        font-size: 1.5rem;
+    }
+
+    .cvbtn {
+        height: 2rem;
+        width: 8rem;
+    }
+
+    .role1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile {
+        padding: 20px;
+    }
+
+    .facebook {
+        font-size: 1.5rem;
+        height: 3rem;
+        width: 3rem;
+    }
+}
+
+@media (max-width: 435px) {
+    .aboutContainer {
+        max-width: 20rem;
+        margin-top: 5rem;
+    }
+
+    .image-section img {
+        height: 16rem;
+    }
+
+    .profile {
+        padding: 15px;
+    }
+
+    .facebook {
+        font-size: 1.3rem;
+        height: 2.8rem;
+        width: 2.8rem;
+    }
+}
+
+@media (max-width: 335px) {
+    .aboutContainer {
+        max-width: 18rem;
+        /* margin-top: 8rem; */
+    }
+
+    .image-section img {
+        height: 14rem;
+    }
+
+    .profile {
+        padding: 10px;
+    }
+
+    .facebook {
+        font-size: 1.3rem;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}

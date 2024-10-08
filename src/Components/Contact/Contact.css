@@ -1,0 +1,564 @@
+.contactContainer {
+    height: 100%;
+    max-width: 96rem;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.contactHeading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.contactHeading p {
+    font-size: 2rem;
+    color: grey;
+}
+
+.contactHeading h1 {
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+/* contantSection */
+.contentSection {
+    display: flex;
+    gap: 20px;
+}
+
+/* left side */
+.leftSide {
+    width: 28%;
+    padding-left: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30rem;
+    background-color: #e5e5e5;
+}
+
+
+.infoSection1 .locationLogo {
+    font-size: 1.5rem;
+}
+
+.p1 {
+    font-size: 1.3rem;
+}
+
+.p2 {
+    font-size: 1.3rem;
+    color: grey;
+}
+
+/* rigth side  */
+.rigthSide {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.layer1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nameInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameInput label {
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.nameInput input {
+    border-radius: 10px;
+    height: 4rem;
+    width: 20rem;
+    border: .1px solid #e5e5e5;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    background-color: #f0f0f0;
+}
+
+.emailInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.emailInput label {
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.emailInput input {
+    border-radius: 10px;
+    height: 4rem;
+    width: 20rem;
+    border: .1px solid #e5e5e5;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    background-color: #f0f0f0;
+}
+
+.layer2 .textArea {
+    display: flex;
+    flex-direction: column;
+    padding-left: 9rem;
+}
+
+.textArea label {
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.textArea textarea {
+    background-color: #f0f0f0;
+    height: 6rem;
+    width: 85%;
+    padding: 12px 24px;
+    border: .1px solid #e5e5e5;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.layer3 button {
+    border: none;
+    height: 4rem;
+    width: 12rem;
+    background-color: #001219;
+    color: white;
+    font-size: 17px;
+    transition: all .3s ease-in-out;
+    margin-left: 9rem;
+}
+
+.layer3 button:hover {
+    background-color: white;
+    color: #001219;
+    border: .5px solid #001219;
+}
+
+/* responsiveness */
+@media (max-width: 1580px) {
+    .contactContainer {
+        max-width: 70rem;
+    }
+
+    .textArea textarea {
+        height: 6rem;
+        /* width: 60%; */
+    }
+
+    .layer2 .textArea {
+        padding-left: 4rem;
+    }
+
+    .layer3 button {
+        margin-left: 4rem;
+    }
+}
+
+
+@media (max-width: 1175px) {
+    .contactContainer {
+        max-width: 60rem;
+    }
+
+    .textArea textarea {
+        height: 6rem;
+    }
+
+    .layer2 .textArea {
+        padding-left: 3rem;
+    }
+
+    .layer3 button {
+        margin-left: 3rem;
+    }
+
+
+    .nameInput input {
+        width: 17rem;
+    }
+
+    .emailInput input {
+        width: 17rem;
+    }
+}
+
+
+@media (max-width: 1175px) {
+
+    .contactHeading p {
+        font-size: 1.5rem;
+    }
+
+    .contactHeading h1 {
+        font-weight: 400;
+        font-size: 3rem;
+    }
+
+    .contactContainer {
+        max-width: 50rem;
+    }
+
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftSide {
+        width: 100%;
+    }
+
+    .rigthSide {
+        height: 30rem;
+        width: 100%;
+    }
+
+    .textArea textarea {
+        height: 6rem;
+    }
+
+    .layer2 .textArea {
+        padding-left: 5rem;
+    }
+
+    .layer3 button {
+        margin-left: 5rem;
+    }
+}
+
+
+@media (max-width: 870px) {
+
+    .contactHeading p {
+        font-size: 1.5rem;
+    }
+
+    .contactHeading h1 {
+        font-weight: 400;
+        font-size: 3rem;
+    }
+
+    .contactContainer {
+        max-width: 50rem;
+    }
+
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leftSide {
+        width: 75%;
+    }
+
+    .rigthSide {
+        height: 30rem;
+        width: 75%;
+    }
+
+    .nameInput input {
+        width: 15rem;
+    }
+
+    .emailInput input {
+        width: 15rem;
+    }
+
+    .layer2 .textArea {
+        padding-left: 3rem;
+    }
+
+    .layer3 button {
+        margin-left: 3rem;
+    }
+}
+
+
+@media (max-width: 680px) {
+
+    .contactContainer {
+        max-width: 40rem;
+    }
+
+    .layer1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contactHeading p {
+        font-size: 1.5rem;
+    }
+
+    .contactHeading h1 {
+        font-weight: 400;
+        font-size: 3rem;
+    }
+
+
+
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leftSide {
+        width: 75%;
+    }
+
+    .rigthSide {
+        height: 30rem;
+        width: 75%;
+    }
+
+    .nameInput input {
+        width: 25rem;
+    }
+
+    .emailInput input {
+        width: 25rem;
+    }
+
+    .layer2 .textArea {
+        padding-left: 3rem;
+    }
+
+    .layer3 button {
+        margin-top: 10px;
+        margin-left: 3.2rem;
+    }
+}
+
+
+@media (max-width: 680px) {
+
+    .contactContainer {
+        max-width: 40rem;
+    }
+
+    .layer1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+
+@media (max-width: 520px) {
+
+
+    .contactHeading p {
+        font-size: 1.2rem;
+    }
+
+    .contactHeading h1 {
+        font-weight: 400;
+        font-size: 2.4rem;
+    }
+
+
+    .nameInput input {
+        width: 16rem;
+    }
+
+    .emailInput input {
+        width: 16rem;
+    }
+
+    .layer2 .textArea {
+        padding-left: 3rem;
+    }
+
+    .layer3 button {
+        margin-top: 10px;
+        margin-left: 4rem;
+    }
+
+    .layer2 .textArea {
+        padding-left: 2rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+
+    .contactHeading p {
+        font-size: 1.2rem;
+    }
+
+    .contactHeading h1 {
+        font-weight: 400;
+        font-size: 2.4rem;
+    }
+
+
+    .nameInput input {
+        width: 16rem;
+    }
+
+    .emailInput input {
+        width: 16rem;
+    }
+
+
+    .layer2 .textArea textarea {
+        padding-left: 2rem;
+        height: 3rem;
+        width: 85%;
+        font-size: .9rem;
+    }
+
+    .layer3 button {
+        margin-top: 10px;
+        margin-left: 2rem;
+    }
+
+
+    .textArea textarea {
+        margin-left: 0rem;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+
+    .contactHeading p {
+        font-size: 1.1rem;
+    }
+
+    .contactHeading h1 {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+
+    .nameInput input {
+        width: 12rem;
+    }
+
+    .emailInput input {
+        width: 12rem;
+    }
+
+
+    .layer2 .textArea textarea {
+        padding-left: 2rem;
+        height: 3rem;
+        width: 85%;
+        font-size: .9rem;
+    }
+
+    .layer3 button {
+        margin-top: 10px;
+        margin-left: 1rem;
+    }
+
+
+    .textArea textarea {
+        margin-left: 0rem;
+    }
+
+    .leftSide .p1 {
+        font-size: 1.1rem;
+        flex-wrap: wrap;
+    }
+
+    .leftSide .p2 {
+        font-size: 1.1rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 360px) {
+
+
+    .contactHeading p {
+        font-size: 1rem;
+    }
+
+    .contactHeading h1 {
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
+
+
+    .nameInput input {
+        width: 11rem;
+    }
+
+    .emailInput input {
+        width: 11rem;
+    }
+
+
+    .layer2 .textArea textarea {
+        padding-left: 2rem;
+        height: 3rem;
+        width: 100%;
+        font-size: .9rem;
+
+    }
+
+
+    .leftSide .p1 {
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .leftSide .p2 {
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .leftSide {
+        width: 100%;
+    }
+
+    .rigthSide{
+        width: 100%;
+    }
+
+    .textArea textarea{
+        width: 8rem;
+    }
+
+    
+    .layer3 button {
+        margin-top: 10px;
+        margin-left: 1rem;
+        padding: 10px 18px;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 250px) {
+    .leftSide .p2{
+        font-size: .5rem;
+    }
+}

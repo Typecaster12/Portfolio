@@ -1,0 +1,110 @@
+.serviceContainer {
+    height: 100%;
+    max-width: 96rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.heading h1 {
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.heading p {
+    font-size: 2rem;
+    color: grey;
+}
+
+.services {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.serviceBox1 {
+    height: 20rem;
+    width: 25rem;
+    border: .1px solid #c0bdbd;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #e5e5e5;
+    padding: 14px 28px;
+    justify-content: space-evenly;
+    transition: all .3s ease-in;
+}
+
+.serviceBox1:hover {
+    border: .5px solid black;
+}
+
+.logo {
+    font-size: 5rem;
+    color: grey;
+}
+
+.logoHeading {
+    font-size: 1.8rem;
+}
+
+.logoAbout {
+    font-size: 1.3rem;
+    color: grey;
+}
+
+/* responsiveness */
+@media (max-width: 1633px) {
+    .serviceContainer {
+        max-width: 80rem;
+    }
+}
+
+@media (max-width: 1116px) {
+    .serviceContainer {
+        max-width: 65rem;
+    }
+}
+
+@media (max-width: 687px) {
+    .serviceContainer {
+        max-width: 30rem;
+    }
+
+    .heading h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 515px) {
+    .serviceContainer {
+        max-width: 22rem;
+    }
+
+    .heading h1 {
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 435px) {
+    .serviceContainer {
+        max-width: 20rem;
+    }
+
+    .heading h1 {
+        font-size: 2.5rem;
+    }
+
+}

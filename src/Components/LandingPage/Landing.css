@@ -1,0 +1,162 @@
+.container {
+    height: calc(100% - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b0c4b1;
+    margin: 0 auto;
+    max-width: 96rem;
+    border-radius: 20px;
+}
+
+.containt {
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    gap: 30px;
+}
+
+
+.box {
+    background-color: #ddd;
+    display: flex;
+    gap: 10px;
+    padding: 12px 24px;
+}
+
+
+.box-text {
+    font-size: 25px;
+    color: rgb(119, 119, 125);
+}
+
+.text {
+    font-size: 5rem;
+}
+
+.dots {
+    font-weight: bold;
+}
+
+
+
+/* responsivenss */
+@media (max-width: 1633px) {
+    .container {
+        max-width: 80rem;
+    }
+}
+
+@media (max-width: 1339px) {
+    .container {
+        max-width: 65rem;
+    }
+}
+
+@media (max-width: 1116px) {
+    .container {
+        max-width: 50rem;
+    }
+
+    .containt {
+        height: 30rem;
+    }
+}
+
+@media (max-width: 848px) {
+    .container {
+        max-width: 40rem;
+    }
+
+    .containt {
+        height: 25rem;
+    }
+
+    .text {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 687px) {
+    .container {
+        max-width: 30rem;
+    }
+
+    .containt {
+        height: 20rem;
+    }
+
+    .text {
+        font-size: 2.6rem;
+    }
+
+    /* box  */
+    .box{
+        padding: 10px 20px;
+        display: flex;
+        gap: 7px;
+    }
+
+    .box-text{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 515px) {
+    .container{
+        max-width: 24rem;
+    }
+
+    .text{
+        font-size: 2rem;
+    }
+
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 435px) {
+    .container{
+        max-width: 20rem;
+    }
+
+    .containt{
+        height: 22rem;
+    }
+
+    .box{
+        padding: 8px 18px;
+        display: flex;
+        margin: 4px;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .text{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 335px) {
+    .container{
+        max-width: 18rem;
+    }
+
+    .containt{
+        height: 25rem;
+    }
+}

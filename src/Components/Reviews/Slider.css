@@ -1,0 +1,117 @@
+.carousel {
+    display: flex;
+}
+
+.slider {
+    width: 50rem;
+    border: .1px solid #b7b5b5;
+    padding: 8px 18px;
+    height: 18rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transition: all .2s ease-in;
+}
+
+.slider:hover {
+    border: .1px solid black;
+}
+
+.review {
+    text-align: center;
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.indicator {
+    border-radius: 50%;
+    border: none;
+    background-color: #e5e5e5;
+    padding: 5px;
+    border: .1px solid black;
+}
+
+.indicator-inactive {
+    background-color: black;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.arrows {
+    display: flex;
+    gap: 20px;
+}
+
+.left {
+    font-size: 50px;
+    cursor: pointer;
+    color: #8c8a8a;
+    transition: all .2s ease-in;
+}
+
+.right {
+    font-size: 50px;
+    cursor: pointer;
+    color: #8c8a8a;
+    transition: all .3s ease-in;
+}
+
+.left:hover {
+    color: black;
+}
+
+.right:hover {
+    color: black;
+}
+
+.slider-hidden {
+    display: none;
+}
+
+.slider .role {
+    text-align: center;
+}
+
+
+/* responsiveness */
+@media (max-width: 880px) {
+    .slider {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 680px) {
+    .slider {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 495px) {
+    .slider{
+        width: 20rem;
+    }
+
+    .review {
+        font-size: 1rem;
+    }
+
+    .name{
+        font-size: .8rem;
+    }
+
+    .role{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .slider{
+        width: 15rem;
+    }
+}
